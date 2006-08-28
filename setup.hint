@@ -1,0 +1,16 @@
+category: Graphics Gnome
+requires: cygwin gconfmm26 gtkmm24 libgnome2
+sdesc: "GNOME color scheme designer"
+ldesc: "Agave is a program for generating colorschemes from a starting
+color.  It currently supports five different colorscheme types:
+
+ * Complements: The starting color and the color directly across the color wheel
+ * Split Complements: the starting color and the two colors that are slightly
+   offset from the color directly across the color wheel
+ * Triads: the starting color and the two colors 1/3 of the way around the wheel
+   in each direction.
+ * Tetrads: The starting color and its complement plus another color slightly
+   offset from the starting color and _its_ complement
+ * Analogous: The starting color and two colors slightly offset in hue
+ * Monochromatic: The starting color and two other colors of the same hue, one
+   lighter, and one darker"
