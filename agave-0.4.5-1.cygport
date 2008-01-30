@@ -1,0 +1,5 @@
+inherit gnome2
+
+DESCRIPTION="GNOME color scheme designer"
+HOMEPAGE="http://home.gna.org/colorscheme/"
+SRC_URI="http://download.gna.org/colorscheme/releases/${P}.tar.bz2"

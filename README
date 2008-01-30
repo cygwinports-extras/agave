@@ -20,8 +20,8 @@ Runtime requirements:
   glib2-2.14.5-1
   glibmm24-2.14.2-1
   gtk2-x11-2.12.5-1
-  gtkmm24-2.12.3-1
-  libcairo2-1.4.12-1
+  gtkmm24-2.12.4-1
+  libcairo2-1.4.14-1
   libglademm24-2.6.5-1
   libgnome2-2.20.1.1-1
   libintl8-0.15-1
@@ -52,15 +52,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack agave-0.4.4-X-src.tar.bz2
+  unpack agave-0.4.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./agave-0.4.4-X.cygport all
+  cygport ./agave-0.4.5-X.cygport all
 
 This will create:
-  /usr/src/agave-0.4.4-X-src.tar.bz2
-  /usr/src/agave-0.4.4-X.tar.bz2
+  /usr/src/agave-0.4.5-X-src.tar.bz2
+  /usr/src/agave-0.4.5-X.tar.bz2
 
 -------------------------------------------
 
@@ -82,13 +82,13 @@ Files included in the binary package:
   /usr/share/agave/ui/agave.ui
   /usr/share/agave/ui/bookmarkspopup.ui
   /usr/share/applications/agave.desktop
-  /usr/share/doc/agave-0.4.4/AUTHORS
-  /usr/share/doc/agave-0.4.4/COPYING
-  /usr/share/doc/agave-0.4.4/ChangeLog
-  /usr/share/doc/agave-0.4.4/INSTALL
-  /usr/share/doc/agave-0.4.4/NEWS
-  /usr/share/doc/agave-0.4.4/README
-  /usr/share/doc/agave-0.4.4/TODO
+  /usr/share/doc/agave-0.4.5/AUTHORS
+  /usr/share/doc/agave-0.4.5/COPYING
+  /usr/share/doc/agave-0.4.5/ChangeLog
+  /usr/share/doc/agave-0.4.5/INSTALL
+  /usr/share/doc/agave-0.4.5/NEWS
+  /usr/share/doc/agave-0.4.5/README
+  /usr/share/doc/agave-0.4.5/TODO
   /usr/share/gnome/help/agave/C/agave.xml
   /usr/share/gnome/help/agave/C/figures/analogous.png
   /usr/share/gnome/help/agave/C/figures/complements.png
@@ -119,6 +119,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.4.5-1 -----
+Version bump.
 
 ----- version 0.4.4-1 -----
 Version bump.
