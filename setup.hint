@@ -1,5 +1,5 @@
 category: Graphics Gnome
-requires: GConf2 gconfmm26 glib2 glibmm24 gtk2-x11 gtkmm24 libcairo2 libglademm24 libgnome2 libintl8 libsigc++20
+requires: libatkmm1.6_1 libcairo2 libgcc1 libgconf2_4 libgconfmm2.6_1 libglademm2.4_1 libglib2.0_0 libglibmm2.4_1 libgnome2_0 libgtk2.0_0 libgtkmm2.4_1 libintl8 libpangomm1.4_1 libsigc2.0_0 libstdc++6
 sdesc: "GNOME color scheme designer"
 ldesc: "Agave is a program for generating colorschemes from a starting
 color.  It currently supports five different colorscheme types:
