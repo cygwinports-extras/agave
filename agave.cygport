@@ -1,0 +1,18 @@
+inherit gnome2
+
+NAME="agave"
+VERSION=0.4.7
+RELEASE=2
+CATEGORY="Graphics"
+SUMMARY="GNOME color scheme designer"
+DESCRIPTION="Agave is a program for generating colorschemes from a starting
+color.  It currently supports different colorscheme types: complements, split
+complements, triads, tetrads, analogous, and monochromatic."
+HOMEPAGE="http://home.gna.org/colorscheme/"
+SRC_URI="http://download.gna.org/colorscheme/releases/agave-${VERSION}.tar.bz2"
+PATCH_URI="
+	http://patch-tracker.debian.org/patch/series/dl/agave/0.4.7-2.1/fix_gcc-4.5_ftbfs.diff
+	http://patch-tracker.debian.org/patch/series/dl/agave/0.4.7-2.1/headers.diff
+	http://patch-tracker.debian.org/patch/series/dl/agave/0.4.7-2.1/compat-round.diff
+	http://patch-tracker.debian.org/patch/series/dl/agave/0.4.7-2.1/fix_format_security.diff
+"
